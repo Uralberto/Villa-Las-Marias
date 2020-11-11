@@ -9,7 +9,7 @@ const grada = document.getElementsByClassName("grada");
 const cerca = document.getElementsByClassName("cerca");
 const boton = document.getElementsByClassName("boton-play-pause__btn")
 
-console.log(boton)
+
 function ocultarVlmPaths(elem) {
   for (let i = 0; i <= elem.length - 1; i++) {
     elem[i].style.opacity = 0;
@@ -36,7 +36,6 @@ function mostrarVlmPaths(elem) {
     elem[i].style.opacity = 1;
   }
 }
-
 
 
 function addFill(elem, color) {
