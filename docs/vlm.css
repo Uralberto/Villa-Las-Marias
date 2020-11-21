@@ -1,9 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 
   .container-vlm {
-    width: 100%;
+    width: 84%;
     display: flex;
     flex-direction: column;
+    padding: 8% 8%;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(245, 235, 222);
 
    
   }
@@ -11,54 +19,72 @@
   .container-vlm__perspectiva-png{
     width:100%;
 
+
   }
+
+  .container-vlm__perspectiva-png h2{
+    margin-bottom: 20px;
+
+  }
+
+
+
 
   .container-vlm__perspectiva-png img{
     width: 100%;
+    margin-top: 25px;
 
   }
+
+  .container-vlm__perspectiva-png-piedefoto{
+    margin-top: 0;
+    font-size: .8rem;
+    margin-bottom: 30px;
+  }
+
 
   .container-vlm__perspectiva-svg{
     width: 100%;
   }
 
-
-  .container-vlm__img-vlm-2017 {
-    width: 100%;
-  }
-
-  .container-vlm__img-vlm-2017 img{
-    width: 100%;
-
-  }
-
-  .container-vlm__img-vlm-2017 p {
+  .container-vlm__perspectiva-svg-piedeanimacion{
+    margin-top: 0;
     font-size: .8rem;
   }
 
 
+
+  .container-vlm__img-vlm {
+    width: 100%;
+  }
+
+  .container-vlm__img-vlm img{
+    width: 100%;
+
+  }
+
+  .container-vlm__img-vlm p {
+    margin-top: 0;
+    font-size: .8rem;
+  }
 
 
 .boton-play-pause{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 30px 0 50px 0;
+  padding: 20px 0 40px 0;
 
 }
 
 
 .boton-play-pause__btn{
     
-  font-size: 2rem;
+  font-size: 4rem;
   background-color: transparent;
   border: none;
   outline: none;
 }
-
-
-
-
 
 .boton-play-pause p {
   font-size: 2rem;
