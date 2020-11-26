@@ -45,12 +45,6 @@
   
 
 
-  .container-vlm__isometrica-png{
-    width:100%;
-
-  }
-
-
   .container-vlm__isometrica-png-title{
     margin-bottom: 20px;
     font-size: 1rem;
@@ -121,26 +115,3 @@
 }
 
 
-
-
-/* 
-
-.boton-play-pause{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-
-#birrete-boton {
-  font-size: 5rem;
-  background-color: transparent;
-  border: none;
-}
-
-
-.boton-play-pause p {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 2rem;
-  text-align: center;
-} */
